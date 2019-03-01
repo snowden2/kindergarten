@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "KindergartenTableViewController.viewDidDisappear(Bool) -&gt; ():KindergartenTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController!.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.mapObjectsFromData(data : Any) -&gt; ():DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "objectData[&quot;license&quot;].int">
+            </PersistentString>
+            <PersistentString
+               value = "objectData[&quot;structure&quot;].int">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnrollKindergartenTableViewController.(viewDidLoad() -&gt; ()).(closure #2):EnrollKindergartenTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "strongSelf.areaDocumentLink">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SingleSelectionListViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SingleSelectionListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewModel.type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomPinAnnotationView.setSelected(Bool, animated : Bool) -&gt; ():CustomPinAnnotationView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.annotation as PointAnnotation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchResultViewController.updateSearchResults(for : UISearchController) -&gt; ():SearchResultViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentSearchString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.makeCall(to : String) -&gt; ():DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "phone.replacingOccurrences(of: &quot; &quot;, with: &quot;&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchKindergartenTableViewController.(viewDidLoad() -&gt; ()).(closure #2):SearchKindergartenTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;SELECTED_REGION&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "strongSelf.region.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.(municipalities(with : String) -&gt; ()).(closure #1):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "municipality.1[&quot;phones&quot;].string!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RequestManager.(objects(with : [CLLocationCoordinate2D], completion : ([String : Any]) -&gt; ()) -&gt; ()).(closure #1):RequestManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Array(jsonResponse)[0].key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FavoritesViewController.viewWillAppear(Bool) -&gt; ():FavoritesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "favorites">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.(allRegions() -&gt; ()).(closure #1):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "region.1[&quot;id&quot;].int!">
+            </PersistentString>
+            <PersistentString
+               value = "region.1[&quot;shortname&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SingleSelectionListViewModel.(init(type : SingleSelectionListType, params : String) -&gt; SingleSelectionListViewModel).(closure #1):SingleSelectionListViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.datasource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RequestManager.(makeRequest(with : String, parameters : [String : Any]?, completion : ([String : Any]) -&gt; ()) -&gt; ()).(closure #1):RequestManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result.value">
+            </PersistentString>
+            <PersistentString
+               value = "response.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.(viewModel.didset).(closure #2):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations.count">
+            </PersistentString>
+            <PersistentString
+               value = "self.allAnnotationsMapView.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchKindergartenTableViewController.(viewDidLoad() -&gt; ()).(closure #1):SearchKindergartenTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(notification.userInfo?[&quot;selectedTypes&quot;] as! Array&lt;String&gt;).count">
+            </PersistentString>
+            <PersistentString
+               value = "(notification.userInfo?[&quot;ageInterval&quot;] as! Array&lt;String&gt;).last">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.(searchAddress(with : String, completion : ([MapSearchResult]) -&gt; ()) -&gt; ()).(closure #1):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resultDict[&quot;response&quot;][&quot;GeoObjectCollection&quot;][&quot;featureMember&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RequestManager.(makeRequest(with : String, parameters : [String : Any]?, completion : (Any) -&gt; ()) -&gt; ()).(closure #1):RequestManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.request.url">
+            </PersistentString>
+            <PersistentString
+               value = "response.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchKindergartenParamsDetailViewController.tableView(UITableView, didDeselectRowAt : IndexPath) -&gt; ():SearchKindergartenParamsDetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomSearchController.viewDidLayoutSubviews() -&gt; ():CustomSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.searchBar.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.updateVisibleAnnotations() -&gt; ():MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewModel.visibleMapObjects.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.mapView(YMKMapView!, regionDidChangeAnimated : Bool) -&gt; ():MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView.viewPort.mapRect">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchKindergartenParamsViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SearchKindergartenParamsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedTypes">
+            </PersistentString>
+            <PersistentString
+               value = "datasource[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FavoritesViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:FavoritesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "kindergarten">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaitingTimeTableViewController.tableView(UITableView, viewForHeaderInSection : Int) -&gt; UIView?:WaitingTimeTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "headerView.hintButton.actions(forTarget: self, forControlEvent: .touchUpInside)?.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchKindergartenTableViewController.makeDictionaryForSearchRequest() -&gt; [String : String]:SearchKindergartenTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewModel.updateVisibleAnnotationsInMapRect(rect : YMKMapRect) -&gt; ():MapViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapObjects">
+            </PersistentString>
+            <PersistentString
+               value = "visibleMapObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RequestManager.(searchObjects(with : [String : String], completion : (Any) -&gt; ()) -&gt; ()).(closure #1):RequestManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewModel.updateVisibleAnnotationsInMapRect(rect : YMKMapRect, with : CLLocationCoordinate2D) -&gt; ():MapViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "annotation.coordinate()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KindergartenTableViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:KindergartenTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.isUserInteractionEnabled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.(mapObjectsFromData(data : Any) -&gt; ()).(closure #1):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object.1[&quot;lon&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: &quot;SELECTED_REGION&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnrollKindergartenTableViewController.processPhones(phones : String) -&gt; ():EnrollKindergartenTableViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

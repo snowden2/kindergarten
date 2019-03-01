@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoImage" translatesAutoresizingMaskIntoConstraints="NO" id="7uc-qh-htc">
+                                <rect key="frame" x="140" y="187.5" width="95" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="ZE6-dj-Sg4"/>
+                                    <constraint firstAttribute="height" constant="100" id="uif-lP-emD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ДЕТСКИЙ САД" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kF6-6F-DHn">
+                                <rect key="frame" x="70" y="313.5" width="235" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="gLi-bn-tN4"/>
+                                    <constraint firstAttribute="height" constant="40" id="sSf-2T-AjH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
+                                <color key="textColor" red="0.18694213030000001" green="0.51658123730000005" blue="0.99849849940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="все про очередь" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUZ-3b-l6h">
+                                <rect key="frame" x="100" y="358.5" width="175" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="EdN-ld-e9W"/>
+                                    <constraint firstAttribute="height" constant="30" id="MMB-1F-ZKB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" red="0.18694213030000001" green="0.51658123730000005" blue="0.99849849940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYf-iP-D67">
+                                <rect key="frame" x="157" y="622" width="55" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="9Go-Pu-AbQ"/>
+                                    <constraint firstAttribute="height" constant="25" id="nw9-LE-56t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" red="0.69772678610000005" green="0.70581179859999998" blue="0.71404975650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yYf-iP-D67" firstAttribute="leading" secondItem="CUZ-3b-l6h" secondAttribute="leading" constant="57" id="H0e-8X-Y5Y"/>
+                            <constraint firstItem="7uc-qh-htc" firstAttribute="leading" secondItem="kF6-6F-DHn" secondAttribute="leading" constant="70" id="Vc5-O9-kD2"/>
+                            <constraint firstItem="CUZ-3b-l6h" firstAttribute="leading" secondItem="kF6-6F-DHn" secondAttribute="leading" constant="30" id="ZdL-Gn-WZl"/>
+                            <constraint firstItem="kF6-6F-DHn" firstAttribute="top" secondItem="7uc-qh-htc" secondAttribute="bottom" constant="26" id="biV-lp-FBB"/>
+                            <constraint firstItem="kF6-6F-DHn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ifX-Iz-Pyi"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yYf-iP-D67" secondAttribute="bottom" constant="20" id="mqI-ks-fwd"/>
+                            <constraint firstItem="kF6-6F-DHn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n8N-m3-Acl"/>
+                            <constraint firstItem="CUZ-3b-l6h" firstAttribute="top" secondItem="kF6-6F-DHn" secondAttribute="bottom" constant="5" id="tma-kV-q48"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoImage" width="95" height="98"/>
+    </resources>
+</document>

@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53C21891F57FC0C00BDAD76 /* InfographicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C21881F57FC0C00BDAD76 /* InfographicsViewController.swift */; };
+		A53C218B1F5839C400BDAD76 /* InfographicsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C218A1F5839C400BDAD76 /* InfographicsDetailViewController.swift */; };
+		A53C218D1F583CAD00BDAD76 /* InfographicsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C218C1F583CAD00BDAD76 /* InfographicsDetailTableViewCell.swift */; };
+		A5403B041F6150BC00F28921 /* KindergartenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5403B031F6150BC00F28921 /* KindergartenTableViewController.swift */; };
+		A542E0CC1F600CBB008DB759 /* CustomPinAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542E0CB1F600CBB008DB759 /* CustomPinAnnotationView.swift */; };
+		A542E0CE1F6041EA008DB759 /* CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A542E0CD1F6041EA008DB759 /* CalloutView.swift */; };
+		A5436A6E1F7505B4007226E0 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5436A6D1F7505B4007226E0 /* FavoritesViewController.swift */; };
+		A5436A701F750AEA007226E0 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5436A6F1F750AEA007226E0 /* FavoritesTableViewCell.swift */; };
+		A5497AF31F878DDD00C562EC /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5497AF21F878DDD00C562EC /* CustomHeaderView.xib */; };
+		A5497AF51F878ED800C562EC /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5497AF41F878ED800C562EC /* CustomHeaderView.swift */; };
+		A54982FD1F83A4CA00D41995 /* PriorityNeededTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54982FC1F83A4CA00D41995 /* PriorityNeededTableViewController.swift */; };
+		A54982FF1F83A59200D41995 /* NumberOfKidsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54982FE1F83A59200D41995 /* NumberOfKidsTableViewController.swift */; };
+		A54983011F83A7B400D41995 /* WaitingTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54983001F83A7B400D41995 /* WaitingTimeTableViewController.swift */; };
+		A549A5AB1F7CFD53007E3975 /* SearchKindergartenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549A5AA1F7CFD53007E3975 /* SearchKindergartenTableViewController.swift */; };
+		A549A5AF1F7D404F007E3975 /* SingleSelectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A549A5AE1F7D404F007E3975 /* SingleSelectionListViewController.swift */; };
+		A54A4B7E1F458501003AD581 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A4B7D1F458501003AD581 /* LocationManager.swift */; };
+		A54A4B801F4587F0003AD581 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A4B7F1F4587F0003AD581 /* MapViewModel.swift */; };
+		A54A4B831F45C3BD003AD581 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A4B821F45C3BD003AD581 /* Constants.swift */; };
+		A54A4B851F45C956003AD581 /* PointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A4B841F45C956003AD581 /* PointAnnotation.swift */; };
+		A54A6E901F7E382800F1DDF6 /* SingleSelectionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A6E8F1F7E382800F1DDF6 /* SingleSelectionListViewModel.swift */; };
+		A54EFBFA1F42DBA800F27B29 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EFBF91F42DBA800F27B29 /* DataManager.swift */; };
+		A55048CE1F7A819B0050005B /* EnrollKindergartenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55048CD1F7A819B0050005B /* EnrollKindergartenTableViewController.swift */; };
+		A558652F1F5EADEC005121F7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558652E1F5EADEC005121F7 /* WelcomeViewController.swift */; };
+		A55B445A1F3C52AA00291889 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55B44591F3C52AA00291889 /* SystemConfiguration.framework */; };
+		A55B445C1F3C52B100291889 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55B445B1F3C52B100291889 /* CoreLocation.framework */; };
+		A55B445E1F3C52B800291889 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55B445D1F3C52B800291889 /* Security.framework */; };
+		A56763551F44643500D8F163 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763541F44643500D8F163 /* libsqlite3.tbd */; };
+		A56763571F44643C00D8F163 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763561F44643C00D8F163 /* libxml2.tbd */; };
+		A56763591F44644400D8F163 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763581F44644400D8F163 /* libz.tbd */; };
+		A567635B1F44645F00D8F163 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A567635A1F44645F00D8F163 /* CoreTelephony.framework */; };
+		A567635D1F44646E00D8F163 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A567635C1F44646E00D8F163 /* OpenAL.framework */; };
+		A567635F1F44647500D8F163 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A567635E1F44647500D8F163 /* AudioToolbox.framework */; };
+		A56763611F44648700D8F163 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763601F44648700D8F163 /* MessageUI.framework */; };
+		A56763631F44648E00D8F163 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763621F44648E00D8F163 /* OpenGLES.framework */; };
+		A56763651F4466DC00D8F163 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56763641F4466DC00D8F163 /* CoreData.framework */; };
+		A56B8E4E1F8E09F1008A1BB0 /* SearchKindergartenParamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B8E4D1F8E09F1008A1BB0 /* SearchKindergartenParamsViewController.swift */; };
+		A56B8E501F8E0A7D008A1BB0 /* SearchKindergartenParamsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B8E4F1F8E0A7D008A1BB0 /* SearchKindergartenParamsDetailViewController.swift */; };
+		A56B8E531F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56B8E511F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.swift */; };
+		A56B8E541F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56B8E521F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.xib */; };
+		A56C92FE1F418A2E008B967C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C92FD1F418A2E008B967C /* RequestManager.swift */; };
+		A571449A1F71117C000FAFB3 /* BuildingShortInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57144991F71117C000FAFB3 /* BuildingShortInfoTableViewCell.swift */; };
+		A5715BC51F90A60500083316 /* SearchRequestAgePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5715BC41F90A60500083316 /* SearchRequestAgePickerViewController.swift */; };
+		A576361C1F8CC7DD00D1379B /* RemoveFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576361B1F8CC7DD00D1379B /* RemoveFavoriteViewController.swift */; };
+		A57AA6591F6C042000CD14B0 /* KindergartenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57AA6581F6C042000CD14B0 /* KindergartenViewModel.swift */; };
+		A585A6701F739C16000F0F74 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585A66F1F739C16000F0F74 /* SearchResultViewController.swift */; };
+		A585A6721F739F5B000F0F74 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585A6711F739F5B000F0F74 /* SearchResultTableViewCell.swift */; };
+		A585A6741F739FFD000F0F74 /* EmptySearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585A6731F739FFD000F0F74 /* EmptySearchTableViewCell.swift */; };
+		A585A6761F73D631000F0F74 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585A6751F73D631000F0F74 /* CustomSearchController.swift */; };
+		A585A6781F73E616000F0F74 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A585A6771F73E616000F0F74 /* CustomSearchBar.swift */; };
+		A58651581F3B499100FC3A92 /* MapSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58651571F3B499100FC3A92 /* MapSearchResult.swift */; };
+		A586515C1F3B577700FC3A92 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A586515A1F3B577700FC3A92 /* Alamofire.framework */; };
+		A586515D1F3B577700FC3A92 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A586515B1F3B577700FC3A92 /* SwiftyJSON.framework */; };
+		A59C95661F94B27B00AAD713 /* HintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59C95651F94B27B00AAD713 /* HintViewController.swift */; };
+		A5E283171F3C612000DC9C93 /* libYandexMapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E283121F3C612000DC9C93 /* libYandexMapKit.a */; };
+		A5E283181F3C612000DC9C93 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5E283131F3C612000DC9C93 /* LICENSE.txt */; };
+		A5E283191F3C612000DC9C93 /* YandexMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5E283141F3C612000DC9C93 /* YandexMapKit.bundle */; };
+		A5E2831A1F3C612000DC9C93 /* YandexMapKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A5E283151F3C612000DC9C93 /* YandexMapKit.podspec */; };
+		A5E2831B1F3C612000DC9C93 /* YandexMapKit_iOS7.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5E283161F3C612000DC9C93 /* YandexMapKit_iOS7.bundle */; };
+		A5E2831E1F3C629500DC9C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E2831C1F3C620400DC9C93 /* Foundation.framework */; };
+		A5E283201F3C63DE00DC9C93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E2831F1F3C63DE00DC9C93 /* AVFoundation.framework */; };
+		A5E283221F3C63E400DC9C93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E283211F3C63E400DC9C93 /* QuartzCore.framework */; };
+		B51E39A11F3A04BC0070F58C /* KindergartenSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E39A01F3A04BC0070F58C /* KindergartenSummary.swift */; };
+		B5312FB11F3893DD00AF4D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FB01F3893DD00AF4D10 /* AppDelegate.swift */; };
+		B5312FB31F3893DD00AF4D10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FB21F3893DD00AF4D10 /* MapViewController.swift */; };
+		B5312FB61F3893DD00AF4D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5312FB41F3893DD00AF4D10 /* Main.storyboard */; };
+		B5312FB81F3893DD00AF4D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5312FB71F3893DD00AF4D10 /* Assets.xcassets */; };
+		B5312FBB1F3893DD00AF4D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5312FB91F3893DD00AF4D10 /* LaunchScreen.storyboard */; };
+		B5312FC61F38AA5200AF4D10 /* Municipality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FC51F38AA5200AF4D10 /* Municipality.swift */; };
+		B5312FC81F38AA7A00AF4D10 /* Kindergarten.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FC71F38AA7A00AF4D10 /* Kindergarten.swift */; };
+		B5312FCA1F38AA9F00AF4D10 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FC91F38AA9F00AF4D10 /* Building.swift */; };
+		B5312FCC1F38AABD00AF4D10 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5312FCB1F38AABD00AF4D10 /* Group.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A53C21881F57FC0C00BDAD76 /* InfographicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfographicsViewController.swift; sourceTree = "<group>"; };
+		A53C218A1F5839C400BDAD76 /* InfographicsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfographicsDetailViewController.swift; sourceTree = "<group>"; };
+		A53C218C1F583CAD00BDAD76 /* InfographicsDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfographicsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A5403B031F6150BC00F28921 /* KindergartenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindergartenTableViewController.swift; sourceTree = "<group>"; };
+		A542E0CB1F600CBB008DB759 /* CustomPinAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPinAnnotationView.swift; sourceTree = "<group>"; };
+		A542E0CD1F6041EA008DB759 /* CalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
+		A5436A6D1F7505B4007226E0 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		A5436A6F1F750AEA007226E0 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		A5497AF21F878DDD00C562EC /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		A5497AF41F878ED800C562EC /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		A54982FC1F83A4CA00D41995 /* PriorityNeededTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityNeededTableViewController.swift; sourceTree = "<group>"; };
+		A54982FE1F83A59200D41995 /* NumberOfKidsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfKidsTableViewController.swift; sourceTree = "<group>"; };
+		A54983001F83A7B400D41995 /* WaitingTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingTimeTableViewController.swift; sourceTree = "<group>"; };
+		A549A5AA1F7CFD53007E3975 /* SearchKindergartenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchKindergartenTableViewController.swift; sourceTree = "<group>"; };
+		A549A5AE1F7D404F007E3975 /* SingleSelectionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelectionListViewController.swift; sourceTree = "<group>"; };
+		A54A4B7D1F458501003AD581 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A54A4B7F1F4587F0003AD581 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		A54A4B821F45C3BD003AD581 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A54A4B841F45C956003AD581 /* PointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointAnnotation.swift; sourceTree = "<group>"; };
+		A54A6E8F1F7E382800F1DDF6 /* SingleSelectionListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelectionListViewModel.swift; sourceTree = "<group>"; };
+		A54EFBF91F42DBA800F27B29 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A55048CD1F7A819B0050005B /* EnrollKindergartenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrollKindergartenTableViewController.swift; sourceTree = "<group>"; };
+		A558652E1F5EADEC005121F7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A55B44591F3C52AA00291889 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A55B445B1F3C52B100291889 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A55B445D1F3C52B800291889 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A55B445F1F3C52E000291889 /* libYandexMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYandexMapKit.a; path = Kindergarten/YandexMapKit/libYandexMapKit.a; sourceTree = "<group>"; };
+		A55B44651F3C56D000291889 /* Kindergarten-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kindergarten-Bridging-Header.h"; sourceTree = "<group>"; };
+		A56763541F44643500D8F163 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A56763561F44643C00D8F163 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A56763581F44644400D8F163 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A567635A1F44645F00D8F163 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A567635C1F44646E00D8F163 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		A567635E1F44647500D8F163 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A56763601F44648700D8F163 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A56763621F44648E00D8F163 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A56763641F4466DC00D8F163 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A56B8E4D1F8E09F1008A1BB0 /* SearchKindergartenParamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchKindergartenParamsViewController.swift; sourceTree = "<group>"; };
+		A56B8E4F1F8E0A7D008A1BB0 /* SearchKindergartenParamsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchKindergartenParamsDetailViewController.swift; sourceTree = "<group>"; };
+		A56B8E511F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSelectionParamsTableViewCell.swift; sourceTree = "<group>"; };
+		A56B8E521F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleSelectionParamsTableViewCell.xib; sourceTree = "<group>"; };
+		A56C92FD1F418A2E008B967C /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		A57144991F71117C000FAFB3 /* BuildingShortInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingShortInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A5715BC41F90A60500083316 /* SearchRequestAgePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequestAgePickerViewController.swift; sourceTree = "<group>"; };
+		A576361B1F8CC7DD00D1379B /* RemoveFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveFavoriteViewController.swift; sourceTree = "<group>"; };
+		A57AA6581F6C042000CD14B0 /* KindergartenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindergartenViewModel.swift; sourceTree = "<group>"; };
+		A585A66F1F739C16000F0F74 /* SearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		A585A6711F739F5B000F0F74 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		A585A6731F739FFD000F0F74 /* EmptySearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySearchTableViewCell.swift; sourceTree = "<group>"; };
+		A585A6751F73D631000F0F74 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		A585A6771F73E616000F0F74 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		A58651571F3B499100FC3A92 /* MapSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSearchResult.swift; sourceTree = "<group>"; };
+		A586515A1F3B577700FC3A92 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		A586515B1F3B577700FC3A92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		A59C95651F94B27B00AAD713 /* HintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintViewController.swift; sourceTree = "<group>"; };
+		A5E282F81F3C612000DC9C93 /* NSValue+YMKMapCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+YMKMapCoordinate.h"; sourceTree = "<group>"; };
+		A5E282F91F3C612000DC9C93 /* YandexMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YandexMapKit.h; sourceTree = "<group>"; };
+		A5E282FA1F3C612000DC9C93 /* YMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAnnotation.h; sourceTree = "<group>"; };
+		A5E282FB1F3C612000DC9C93 /* YMKAnnotationImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAnnotationImage.h; sourceTree = "<group>"; };
+		A5E282FC1F3C612000DC9C93 /* YMKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAnnotationView.h; sourceTree = "<group>"; };
+		A5E282FD1F3C612000DC9C93 /* YMKCalloutContentView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMKCalloutContentView-Protocol.h"; sourceTree = "<group>"; };
+		A5E282FE1F3C612000DC9C93 /* YMKCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCalloutView.h; sourceTree = "<group>"; };
+		A5E282FF1F3C612000DC9C93 /* YMKConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKConfiguration.h; sourceTree = "<group>"; };
+		A5E283001F3C612000DC9C93 /* YMKConsoleLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKConsoleLogging.h; sourceTree = "<group>"; };
+		A5E283011F3C612000DC9C93 /* YMKDefaultCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDefaultCalloutView.h; sourceTree = "<group>"; };
+		A5E283021F3C612000DC9C93 /* YMKDraggableAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDraggableAnnotation.h; sourceTree = "<group>"; };
+		A5E283031F3C612000DC9C93 /* YMKDraggablePinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDraggablePinAnnotationView.h; sourceTree = "<group>"; };
+		A5E283041F3C612000DC9C93 /* YMKDraggablePinAnnotationViewDelegate+Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMKDraggablePinAnnotationViewDelegate+Protocol.h"; sourceTree = "<group>"; };
+		A5E283051F3C612000DC9C93 /* YMKGeoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObject.h; sourceTree = "<group>"; };
+		A5E283061F3C612000DC9C93 /* YMKLocationFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationFetcher.h; sourceTree = "<group>"; };
+		A5E283071F3C612000DC9C93 /* YMKMapImageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapImageBuilder.h; sourceTree = "<group>"; };
+		A5E283081F3C612000DC9C93 /* YMKMapLayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLayerInfo.h; sourceTree = "<group>"; };
+		A5E283091F3C612000DC9C93 /* YMKMapLayersConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLayersConfiguration.h; sourceTree = "<group>"; };
+		A5E2830A1F3C612000DC9C93 /* YMKMapStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapStructs.h; sourceTree = "<group>"; };
+		A5E2830B1F3C612000DC9C93 /* YMKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapView.h; sourceTree = "<group>"; };
+		A5E2830C1F3C612000DC9C93 /* YMKMapViewDelegate+Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMKMapViewDelegate+Protocol.h"; sourceTree = "<group>"; };
+		A5E2830D1F3C612000DC9C93 /* YMKPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPinAnnotationView.h; sourceTree = "<group>"; };
+		A5E2830E1F3C612000DC9C93 /* YMKRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRuler.h; sourceTree = "<group>"; };
+		A5E2830F1F3C612000DC9C93 /* YMKTrafficInformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficInformer.h; sourceTree = "<group>"; };
+		A5E283101F3C612000DC9C93 /* YMKUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUserLocation.h; sourceTree = "<group>"; };
+		A5E283111F3C612000DC9C93 /* YMKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKVersion.h; sourceTree = "<group>"; };
+		A5E283121F3C612000DC9C93 /* libYandexMapKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYandexMapKit.a; sourceTree = "<group>"; };
+		A5E283131F3C612000DC9C93 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A5E283141F3C612000DC9C93 /* YandexMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YandexMapKit.bundle; sourceTree = "<group>"; };
+		A5E283151F3C612000DC9C93 /* YandexMapKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YandexMapKit.podspec; sourceTree = "<group>"; };
+		A5E283161F3C612000DC9C93 /* YandexMapKit_iOS7.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YandexMapKit_iOS7.bundle; sourceTree = "<group>"; };
+		A5E2831C1F3C620400DC9C93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5E2831F1F3C63DE00DC9C93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5E283211F3C63E400DC9C93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A5E283231F3C644600DC9C93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B51E39A01F3A04BC0070F58C /* KindergartenSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindergartenSummary.swift; sourceTree = "<group>"; };
+		B5312FAD1F3893DD00AF4D10 /* Kindergarten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kindergarten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5312FB01F3893DD00AF4D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5312FB21F3893DD00AF4D10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B5312FB51F3893DD00AF4D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5312FB71F3893DD00AF4D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5312FBA1F3893DD00AF4D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5312FBC1F3893DD00AF4D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5312FC51F38AA5200AF4D10 /* Municipality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Municipality.swift; sourceTree = "<group>"; };
+		B5312FC71F38AA7A00AF4D10 /* Kindergarten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kindergarten.swift; sourceTree = "<group>"; };
+		B5312FC91F38AA9F00AF4D10 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		B5312FCB1F38AABD00AF4D10 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5312FAA1F3893DD00AF4D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56763651F4466DC00D8F163 /* CoreData.framework in Frameworks */,
+				A56763631F44648E00D8F163 /* OpenGLES.framework in Frameworks */,
+				A56763611F44648700D8F163 /* MessageUI.framework in Frameworks */,
+				A567635F1F44647500D8F163 /* AudioToolbox.framework in Frameworks */,
+				A567635D1F44646E00D8F163 /* OpenAL.framework in Frameworks */,
+				A567635B1F44645F00D8F163 /* CoreTelephony.framework in Frameworks */,
+				A56763591F44644400D8F163 /* libz.tbd in Frameworks */,
+				A56763571F44643C00D8F163 /* libxml2.tbd in Frameworks */,
+				A56763551F44643500D8F163 /* libsqlite3.tbd in Frameworks */,
+				A5E283221F3C63E400DC9C93 /* QuartzCore.framework in Frameworks */,
+				A5E283201F3C63DE00DC9C93 /* AVFoundation.framework in Frameworks */,
+				A5E2831E1F3C629500DC9C93 /* Foundation.framework in Frameworks */,
+				A55B445E1F3C52B800291889 /* Security.framework in Frameworks */,
+				A55B445C1F3C52B100291889 /* CoreLocation.framework in Frameworks */,
+				A55B445A1F3C52AA00291889 /* SystemConfiguration.framework in Frameworks */,
+				A586515C1F3B577700FC3A92 /* Alamofire.framework in Frameworks */,
+				A586515D1F3B577700FC3A92 /* SwiftyJSON.framework in Frameworks */,
+				A5E283171F3C612000DC9C93 /* libYandexMapKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56C92FC1F418865008B967C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A54EFBF91F42DBA800F27B29 /* DataManager.swift */,
+				A56C92FD1F418A2E008B967C /* RequestManager.swift */,
+				A54A4B7D1F458501003AD581 /* LocationManager.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A58651561F3B494B00FC3A92 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A58651571F3B499100FC3A92 /* MapSearchResult.swift */,
+				A54A4B841F45C956003AD581 /* PointAnnotation.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		A58651591F3B577700FC3A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56763641F4466DC00D8F163 /* CoreData.framework */,
+				A56763621F44648E00D8F163 /* OpenGLES.framework */,
+				A56763601F44648700D8F163 /* MessageUI.framework */,
+				A567635E1F44647500D8F163 /* AudioToolbox.framework */,
+				A567635C1F44646E00D8F163 /* OpenAL.framework */,
+				A567635A1F44645F00D8F163 /* CoreTelephony.framework */,
+				A56763581F44644400D8F163 /* libz.tbd */,
+				A56763561F44643C00D8F163 /* libxml2.tbd */,
+				A56763541F44643500D8F163 /* libsqlite3.tbd */,
+				A5E283231F3C644600DC9C93 /* UIKit.framework */,
+				A5E283211F3C63E400DC9C93 /* QuartzCore.framework */,
+				A5E2831F1F3C63DE00DC9C93 /* AVFoundation.framework */,
+				A5E2831C1F3C620400DC9C93 /* Foundation.framework */,
+				A55B445F1F3C52E000291889 /* libYandexMapKit.a */,
+				A55B445D1F3C52B800291889 /* Security.framework */,
+				A55B445B1F3C52B100291889 /* CoreLocation.framework */,
+				A55B44591F3C52AA00291889 /* SystemConfiguration.framework */,
+				A586515A1F3B577700FC3A92 /* Alamofire.framework */,
+				A586515B1F3B577700FC3A92 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E282F61F3C612000DC9C93 /* YandexMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5E282F71F3C612000DC9C93 /* Headers */,
+				A5E283121F3C612000DC9C93 /* libYandexMapKit.a */,
+				A5E283131F3C612000DC9C93 /* LICENSE.txt */,
+				A5E283141F3C612000DC9C93 /* YandexMapKit.bundle */,
+				A5E283151F3C612000DC9C93 /* YandexMapKit.podspec */,
+				A5E283161F3C612000DC9C93 /* YandexMapKit_iOS7.bundle */,
+			);
+			path = YandexMapKit;
+			sourceTree = "<group>";
+		};
+		A5E282F71F3C612000DC9C93 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A5E282F81F3C612000DC9C93 /* NSValue+YMKMapCoordinate.h */,
+				A5E282F91F3C612000DC9C93 /* YandexMapKit.h */,
+				A5E282FA1F3C612000DC9C93 /* YMKAnnotation.h */,
+				A5E282FB1F3C612000DC9C93 /* YMKAnnotationImage.h */,
+				A5E282FC1F3C612000DC9C93 /* YMKAnnotationView.h */,
+				A5E282FD1F3C612000DC9C93 /* YMKCalloutContentView-Protocol.h */,
+				A5E282FE1F3C612000DC9C93 /* YMKCalloutView.h */,
+				A5E282FF1F3C612000DC9C93 /* YMKConfiguration.h */,
+				A5E283001F3C612000DC9C93 /* YMKConsoleLogging.h */,
+				A5E283011F3C612000DC9C93 /* YMKDefaultCalloutView.h */,
+				A5E283021F3C612000DC9C93 /* YMKDraggableAnnotation.h */,
+				A5E283031F3C612000DC9C93 /* YMKDraggablePinAnnotationView.h */,
+				A5E283041F3C612000DC9C93 /* YMKDraggablePinAnnotationViewDelegate+Protocol.h */,
+				A5E283051F3C612000DC9C93 /* YMKGeoObject.h */,
+				A5E283061F3C612000DC9C93 /* YMKLocationFetcher.h */,
+				A5E283071F3C612000DC9C93 /* YMKMapImageBuilder.h */,
+				A5E283081F3C612000DC9C93 /* YMKMapLayerInfo.h */,
+				A5E283091F3C612000DC9C93 /* YMKMapLayersConfiguration.h */,
+				A5E2830A1F3C612000DC9C93 /* YMKMapStructs.h */,
+				A5E2830B1F3C612000DC9C93 /* YMKMapView.h */,
+				A5E2830C1F3C612000DC9C93 /* YMKMapViewDelegate+Protocol.h */,
+				A5E2830D1F3C612000DC9C93 /* YMKPinAnnotationView.h */,
+				A5E2830E1F3C612000DC9C93 /* YMKRuler.h */,
+				A5E2830F1F3C612000DC9C93 /* YMKTrafficInformer.h */,
+				A5E283101F3C612000DC9C93 /* YMKUserLocation.h */,
+				A5E283111F3C612000DC9C93 /* YMKVersion.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		B5312FA41F3893DD00AF4D10 = {
+			isa = PBXGroup;
+			children = (
+				B5312FAF1F3893DD00AF4D10 /* Kindergarten */,
+				B5312FAE1F3893DD00AF4D10 /* Products */,
+				A58651591F3B577700FC3A92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5312FAE1F3893DD00AF4D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5312FAD1F3893DD00AF4D10 /* Kindergarten.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5312FAF1F3893DD00AF4D10 /* Kindergarten */ = {
+			isa = PBXGroup;
+			children = (
+				B5312FB01F3893DD00AF4D10 /* AppDelegate.swift */,
+				A54A4B821F45C3BD003AD581 /* Constants.swift */,
+				A55B44651F3C56D000291889 /* Kindergarten-Bridging-Header.h */,
+				A5E282F61F3C612000DC9C93 /* YandexMapKit */,
+				A56C92FC1F418865008B967C /* Utilities */,
+				B5312FC21F38A0EB00AF4D10 /* Model */,
+				B5312FC31F38A0F400AF4D10 /* View */,
+				B5312FC41F38A10300AF4D10 /* ViewModel */,
+				B5312FB71F3893DD00AF4D10 /* Assets.xcassets */,
+				B5312FBC1F3893DD00AF4D10 /* Info.plist */,
+			);
+			path = Kindergarten;
+			sourceTree = "<group>";
+		};
+		B5312FC21F38A0EB00AF4D10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A58651561F3B494B00FC3A92 /* Map */,
+				B5312FC51F38AA5200AF4D10 /* Municipality.swift */,
+				B5312FC71F38AA7A00AF4D10 /* Kindergarten.swift */,
+				B5312FC91F38AA9F00AF4D10 /* Building.swift */,
+				B5312FCB1F38AABD00AF4D10 /* Group.swift */,
+				B51E39A01F3A04BC0070F58C /* KindergartenSummary.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5312FC31F38A0F400AF4D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5312FB41F3893DD00AF4D10 /* Main.storyboard */,
+				A5497AF21F878DDD00C562EC /* CustomHeaderView.xib */,
+				B5312FB91F3893DD00AF4D10 /* LaunchScreen.storyboard */,
+				B5312FB21F3893DD00AF4D10 /* MapViewController.swift */,
+				A53C21881F57FC0C00BDAD76 /* InfographicsViewController.swift */,
+				A53C218A1F5839C400BDAD76 /* InfographicsDetailViewController.swift */,
+				A53C218C1F583CAD00BDAD76 /* InfographicsDetailTableViewCell.swift */,
+				A57144991F71117C000FAFB3 /* BuildingShortInfoTableViewCell.swift */,
+				A5403B031F6150BC00F28921 /* KindergartenTableViewController.swift */,
+				A558652E1F5EADEC005121F7 /* WelcomeViewController.swift */,
+				A542E0CB1F600CBB008DB759 /* CustomPinAnnotationView.swift */,
+				A542E0CD1F6041EA008DB759 /* CalloutView.swift */,
+				A585A66F1F739C16000F0F74 /* SearchResultViewController.swift */,
+				A585A6711F739F5B000F0F74 /* SearchResultTableViewCell.swift */,
+				A585A6731F739FFD000F0F74 /* EmptySearchTableViewCell.swift */,
+				A585A6751F73D631000F0F74 /* CustomSearchController.swift */,
+				A585A6771F73E616000F0F74 /* CustomSearchBar.swift */,
+				A5436A6D1F7505B4007226E0 /* FavoritesViewController.swift */,
+				A5436A6F1F750AEA007226E0 /* FavoritesTableViewCell.swift */,
+				A55048CD1F7A819B0050005B /* EnrollKindergartenTableViewController.swift */,
+				A549A5AA1F7CFD53007E3975 /* SearchKindergartenTableViewController.swift */,
+				A549A5AE1F7D404F007E3975 /* SingleSelectionListViewController.swift */,
+				A54982FC1F83A4CA00D41995 /* PriorityNeededTableViewController.swift */,
+				A54982FE1F83A59200D41995 /* NumberOfKidsTableViewController.swift */,
+				A54983001F83A7B400D41995 /* WaitingTimeTableViewController.swift */,
+				A5497AF41F878ED800C562EC /* CustomHeaderView.swift */,
+				A576361B1F8CC7DD00D1379B /* RemoveFavoriteViewController.swift */,
+				A56B8E4D1F8E09F1008A1BB0 /* SearchKindergartenParamsViewController.swift */,
+				A56B8E4F1F8E0A7D008A1BB0 /* SearchKindergartenParamsDetailViewController.swift */,
+				A56B8E511F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.swift */,
+				A56B8E521F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.xib */,
+				A5715BC41F90A60500083316 /* SearchRequestAgePickerViewController.swift */,
+				A59C95651F94B27B00AAD713 /* HintViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5312FC41F38A10300AF4D10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A54A4B7F1F4587F0003AD581 /* MapViewModel.swift */,
+				A57AA6581F6C042000CD14B0 /* KindergartenViewModel.swift */,
+				A54A6E8F1F7E382800F1DDF6 /* SingleSelectionListViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5312FAC1F3893DD00AF4D10 /* Kindergarten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5312FBF1F3893DD00AF4D10 /* Build configuration list for PBXNativeTarget "Kindergarten" */;
+			buildPhases = (
+				B5312FA91F3893DD00AF4D10 /* Sources */,
+				B5312FAA1F3893DD00AF4D10 /* Frameworks */,
+				B5312FAB1F3893DD00AF4D10 /* Resources */,
+				A586515E1F3B579C00FC3A92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kindergarten;
+			productName = Kindergarten;
+			productReference = B5312FAD1F3893DD00AF4D10 /* Kindergarten.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5312FA51F3893DD00AF4D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Informika;
+				TargetAttributes = {
+					B5312FAC1F3893DD00AF4D10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFRDCLUB34;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5312FA81F3893DD00AF4D10 /* Build configuration list for PBXProject "Kindergarten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5312FA41F3893DD00AF4D10;
+			productRefGroup = B5312FAE1F3893DD00AF4D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5312FAC1F3893DD00AF4D10 /* Kindergarten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5312FAB1F3893DD00AF4D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E283181F3C612000DC9C93 /* LICENSE.txt in Resources */,
+				A5E2831A1F3C612000DC9C93 /* YandexMapKit.podspec in Resources */,
+				B5312FBB1F3893DD00AF4D10 /* LaunchScreen.storyboard in Resources */,
+				B5312FB81F3893DD00AF4D10 /* Assets.xcassets in Resources */,
+				A5497AF31F878DDD00C562EC /* CustomHeaderView.xib in Resources */,
+				A56B8E541F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.xib in Resources */,
+				A5E2831B1F3C612000DC9C93 /* YandexMapKit_iOS7.bundle in Resources */,
+				B5312FB61F3893DD00AF4D10 /* Main.storyboard in Resources */,
+				A5E283191F3C612000DC9C93 /* YandexMapKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A586515E1F3B579C00FC3A92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5312FA91F3893DD00AF4D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53C218B1F5839C400BDAD76 /* InfographicsDetailViewController.swift in Sources */,
+				A549A5AB1F7CFD53007E3975 /* SearchKindergartenTableViewController.swift in Sources */,
+				A585A6741F739FFD000F0F74 /* EmptySearchTableViewCell.swift in Sources */,
+				B5312FB31F3893DD00AF4D10 /* MapViewController.swift in Sources */,
+				A5497AF51F878ED800C562EC /* CustomHeaderView.swift in Sources */,
+				A57AA6591F6C042000CD14B0 /* KindergartenViewModel.swift in Sources */,
+				A56B8E4E1F8E09F1008A1BB0 /* SearchKindergartenParamsViewController.swift in Sources */,
+				A54A4B851F45C956003AD581 /* PointAnnotation.swift in Sources */,
+				A542E0CE1F6041EA008DB759 /* CalloutView.swift in Sources */,
+				A542E0CC1F600CBB008DB759 /* CustomPinAnnotationView.swift in Sources */,
+				A585A6721F739F5B000F0F74 /* SearchResultTableViewCell.swift in Sources */,
+				A5715BC51F90A60500083316 /* SearchRequestAgePickerViewController.swift in Sources */,
+				A5403B041F6150BC00F28921 /* KindergartenTableViewController.swift in Sources */,
+				A54EFBFA1F42DBA800F27B29 /* DataManager.swift in Sources */,
+				A58651581F3B499100FC3A92 /* MapSearchResult.swift in Sources */,
+				A54982FD1F83A4CA00D41995 /* PriorityNeededTableViewController.swift in Sources */,
+				A54A4B7E1F458501003AD581 /* LocationManager.swift in Sources */,
+				B5312FC61F38AA5200AF4D10 /* Municipality.swift in Sources */,
+				B51E39A11F3A04BC0070F58C /* KindergartenSummary.swift in Sources */,
+				A54982FF1F83A59200D41995 /* NumberOfKidsTableViewController.swift in Sources */,
+				A585A6781F73E616000F0F74 /* CustomSearchBar.swift in Sources */,
+				A59C95661F94B27B00AAD713 /* HintViewController.swift in Sources */,
+				B5312FCA1F38AA9F00AF4D10 /* Building.swift in Sources */,
+				A585A6761F73D631000F0F74 /* CustomSearchController.swift in Sources */,
+				A558652F1F5EADEC005121F7 /* WelcomeViewController.swift in Sources */,
+				A54A4B831F45C3BD003AD581 /* Constants.swift in Sources */,
+				B5312FCC1F38AABD00AF4D10 /* Group.swift in Sources */,
+				A549A5AF1F7D404F007E3975 /* SingleSelectionListViewController.swift in Sources */,
+				A56C92FE1F418A2E008B967C /* RequestManager.swift in Sources */,
+				B5312FB11F3893DD00AF4D10 /* AppDelegate.swift in Sources */,
+				A576361C1F8CC7DD00D1379B /* RemoveFavoriteViewController.swift in Sources */,
+				B5312FC81F38AA7A00AF4D10 /* Kindergarten.swift in Sources */,
+				A56B8E531F8E0EEC008A1BB0 /* SingleSelectionParamsTableViewCell.swift in Sources */,
+				A5436A6E1F7505B4007226E0 /* FavoritesViewController.swift in Sources */,
+				A53C218D1F583CAD00BDAD76 /* InfographicsDetailTableViewCell.swift in Sources */,
+				A54A6E901F7E382800F1DDF6 /* SingleSelectionListViewModel.swift in Sources */,
+				A5436A701F750AEA007226E0 /* FavoritesTableViewCell.swift in Sources */,
+				A54983011F83A7B400D41995 /* WaitingTimeTableViewController.swift in Sources */,
+				A571449A1F71117C000FAFB3 /* BuildingShortInfoTableViewCell.swift in Sources */,
+				A56B8E501F8E0A7D008A1BB0 /* SearchKindergartenParamsDetailViewController.swift in Sources */,
+				A53C21891F57FC0C00BDAD76 /* InfographicsViewController.swift in Sources */,
+				A55048CE1F7A819B0050005B /* EnrollKindergartenTableViewController.swift in Sources */,
+				A585A6701F739C16000F0F74 /* SearchResultViewController.swift in Sources */,
+				A54A4B801F4587F0003AD581 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5312FB41F3893DD00AF4D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5312FB51F3893DD00AF4D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5312FB91F3893DD00AF4D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5312FBA1F3893DD00AF4D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5312FBD1F3893DD00AF4D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5312FBE1F3893DD00AF4D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5312FC01F3893DD00AF4D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UFRDCLUB34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Kindergarten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kindergarten/YandexMapKit",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"YandexMapKit\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++.6\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nd.informika.kindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kindergarten/Kindergarten-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		B5312FC11F3893DD00AF4D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UFRDCLUB34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Kindergarten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kindergarten/YandexMapKit",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"YandexMapKit\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++.6\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nd.informika.kindergarten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kindergarten/Kindergarten-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5312FA81F3893DD00AF4D10 /* Build configuration list for PBXProject "Kindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5312FBD1F3893DD00AF4D10 /* Debug */,
+				B5312FBE1F3893DD00AF4D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5312FBF1F3893DD00AF4D10 /* Build configuration list for PBXNativeTarget "Kindergarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5312FC01F3893DD00AF4D10 /* Debug */,
+				B5312FC11F3893DD00AF4D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5312FA51F3893DD00AF4D10 /* Project object */;
+}
